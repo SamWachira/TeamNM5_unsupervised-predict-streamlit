@@ -163,7 +163,7 @@ def main():
 		Our team consists of 5 talented Data Scientists and Machine Learning Engineers from across Africa: """) 
         
         
-        st.write('Elvis  - Team Lead')
+        st.write('Elvis  Oboakorhen- Team Lead')
         st.write('Samuel Njoki - Machine Learning Engineer')
         st.write('Othuke Ajaye - Tech Lead')
         st.write('Abigael Kinini - Data Analyst')
