@@ -163,21 +163,21 @@ def main():
 		Our team consists of 5 talented Data Scientists and Machine Learning Engineers from across Africa: """) 
         
         
-        st.write('Elvis  Oboakorhen- Team Lead')
-        st.write('Samuel Njoki - Machine Learning Engineer')
-        st.write('Othuke Ajaye - Tech Lead')
-        st.write('Abigael Kinini - Data Analyst')
-        st.write('Joe Wahome - Data Scientist')
+        st.write('Elvis  Oboakorhen- Team Lead. Email: korhen.e@gmail.com')
+        st.write('Othuke Ajaye - Tech Lead. Email: ajayeor2kay@gmail.com')
+        st.write('Samuel Njoki - Machine Learning Engineer. Email: samwachira7@gmail.com')
+        st.write('Abigael Kinini - Data Analyst. Email: kininiabigael@gmail.com')
+        st.write('Joe Wahome - Data Scientist. Email: joehwahome@gmail.com')
 		
 
 	# Building out the "About Us" page
     if page_selection == "About Us":
-        st.subheader("Our Company Name.")
+        st.subheader("Nomfam Technology Company")
 		#Company logo
-        st.image('resources/imgs/sample_logo.png', caption='Photo Credit: #')
+        st.image('resources/imgs/logo.png', caption='Photo Credit: Nomfam Technology')
 		# You can read a markdown file from supporting resources folder
         st.markdown("""
-		Our Company specializes in Data Science and Machine Learning. We take 
+		Nomfam Technology Company specializes in Data Science and Machine Learning. We take 
 		data and arrange it in such a way that it makes sense for business and individual users. We also build and train models that are capable of giving data solutions by employing machine learning technology.
 		
 		Our team of highly qualified data scientists and machine learning engineers work tirelessly to make your life and the life of your customers easy.
@@ -186,7 +186,7 @@ def main():
 
         st.markdown(""" 
 		For more info:
-		email: info@ourcompany.com
+		email: info@nomfamtechnology.com
 		""")
 
 
