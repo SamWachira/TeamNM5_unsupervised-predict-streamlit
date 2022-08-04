@@ -39,8 +39,7 @@ import codecs
 # Custom Libraries
 from utils.data_loader import load_movie_titles
 from recommenders.collaborative_based import collab_model
-from recommenders.content_based import content_model
-
+from recomenders.content_based import content_model 
 
 # Data Loading
 title_list = load_movie_titles('resources/data/movies.csv')
@@ -80,7 +79,7 @@ def main():
             if st.button("Recommend"):
                 try:
                     with st.spinner('Crunching the numbers...'):
-                        top_recommendations = collab_model(movie_list=fav_movies,
+                        top_recommendations = content_model(movie_list=fav_movies,
                                                             top_n=10)
                     st.title("We think you'll like:")
                     for i,j in enumerate(top_recommendations):
